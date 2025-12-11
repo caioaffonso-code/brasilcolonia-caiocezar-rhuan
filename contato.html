@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Brasil Colônia - História, acontecimentos e personagens">
+    <meta name="keywords" content="brasil colonia, história do brasil, colonia, brasil">    
+    <meta name="author" content="caiocezar e rhuan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brasil Colônia</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="imagens/favicon.ico">
+</head>
+<body>
+
+<header>
+    <h1>Contato - Brasil Colônia</h1>
+</header>
+
+<nav class="menu">
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <ul id="menu-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="acontecimentos.html">Acontecimentos</a></li>
+        <li><a href="personalidades.html">Personalidades</a></li>
+        <li><a href="movimentos.html">Movimentos</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Contato</h2>
+    <hr>
+    <form action="processa.html" method="post">
+        <p><label>Nome: </label>
+        <input type="text" name="nome" required maxlength="50">
+
+        <label>E-mail:</label>
+        <input type="email" name="email" required></p>
+
+        <p><label>Assunto:</label>
+        <input type="text" name="assunto" required maxlength="50"></p>
+
+        <p><label>Mensagem:</label>
+        <textarea name="mensagem" required maxlength="300"></textarea></p>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</main>
+
+
+<footer>
+    <p>© 2025 - Projeto Brasil Colônia. Feito por Caio Cézar e Rhuan</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
